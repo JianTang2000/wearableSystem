@@ -1,0 +1,5 @@
+The 'arduino_project' folder contains C code (functional program) for A-skin.
+This code defines how to read data from the sensors and control the actuators based on that data.
+To upload this functional program to the chip (ATMEGA328P), you first need to set up a bootloader programming circuit, burn the bootloader onto the chip, then set up a circuit for uploading the functional program, and finally, upload the functional program to the chip.
+
+The 'eda_project' folder contains schematic and PCB designs. Please import it using the EDA software (version 6.5.28) available at [https://lceda.cn/].

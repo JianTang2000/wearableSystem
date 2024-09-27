@@ -1,0 +1,179 @@
+{
+  "uuid": "f042bb8ac1bb32b74c3fc2ec26c84075",
+  "path": "Offline/MCU4Insole",
+  "name": "MCU4Insole",
+  "content": "",
+  "created_at": "2024-02-20 23:19:22",
+  "updated_at": "2024-02-20 23:21:11",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "347e1b91a47ba86bbc29d019e1c793c5",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "828ad03f8ebe35684e8cb1105b9bdefa": 1,
+        "0f189f4144c44ac28f58442df4fbf222": 2,
+        "6812cdd2d9d448af918477849b2285a4": 1,
+        "fa33d4808b42d46b96893a5da4a98304": 1,
+        "1b0e5bc6081a4debb9b6385debec500e": 1,
+        "88cbb99e6a3e4b16a96c512859d50f79": 3,
+        "e09c03caa64046a38cd53b4d81b09d55": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1uF",
+          1,
+          "C0603",
+          "C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2168571",
+            "BOM_Manufacturer": "Knowles(楼氏)",
+            "BOM_Manufacturer Part": "0603BB104K500NGT",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "1b0e5bc6081a4debb9b6385debec500e"
+          }
+        ],
+        [
+          "22pF",
+          2,
+          "C0603",
+          "C6,C7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C599692",
+            "BOM_Manufacturer": "KEMET(基美)",
+            "BOM_Manufacturer Part": "C0603C220J5GACAUTO",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "0f189f4144c44ac28f58442df4fbf222"
+          }
+        ],
+        [
+          "A2541WV-4P",
+          3,
+          "HDR-TH_4P-P2.54-V-M",
+          "H1,H2,H3",
+          {
+            "BOM_Manufacturer Part": "A2541WV-4P",
+            "puuid": "89f5280378144b629de4998ef974b6b8",
+            "uuid": "88cbb99e6a3e4b16a96c512859d50f79",
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C225479",
+            "BOM_Manufacturer": "CJT(长江连接器)",
+            "BOM_JLCPCB Part Class": "Extended Part"
+          }
+        ],
+        [
+          "A2541WV-2P",
+          1,
+          "HDR-TH_P2.54-H-M_A2541WV-2P",
+          "H4",
+          {
+            "BOM_Manufacturer Part": "A2541WV-2P",
+            "puuid": "b650dac514184b809241310cc3e65153",
+            "uuid": "e09c03caa64046a38cd53b4d81b09d55",
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C225477",
+            "BOM_Manufacturer": "CJT(长江连接器)",
+            "BOM_JLCPCB Part Class": "Extended Part"
+          }
+        ],
+        [
+          "10kΩ",
+          1,
+          "R0603",
+          "R8",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C365375",
+            "BOM_Manufacturer": "RESI(开步睿思）",
+            "BOM_Manufacturer Part": "ETCR0603F10K0K9",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "6812cdd2d9d448af918477849b2285a4"
+          }
+        ],
+        [
+          "ATMEGA328P-AU",
+          1,
+          "TQFP-32_L7.0-W7.0-P0.80-LS9.0-BL",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MICROCHIP(美国微芯)",
+            "BOM_Manufacturer Part": "ATMEGA328P-AU",
+            "BOM_Supplier Part": "C14877",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "9c6dab9dc91e4b929269cb3454d6d713",
+            "uuid": "fa33d4808b42d46b96893a5da4a98304"
+          }
+        ],
+        [
+          "X503216MSD2GC",
+          1,
+          "OSC-SMD_L5.0-W3.2",
+          "X2",
+          {
+            "BOM_Supplier Part": "C49231",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YXC",
+            "BOM_Manufacturer Part": "X503216MSD2GC",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9cd066887af54f0aac5b5d84976dee43",
+            "uuid": "828ad03f8ebe35684e8cb1105b9bdefa"
+          }
+        ]
+      ],
+      "updateTime": 1708442471,
+      "createTime": 1691568666,
+      "histories": [],
+      "created_at": "2023-08-09 16:11:06",
+      "updated_at": "2024-02-20 23:21:11"
+    },
+    {
+      "uuid": "413e34fd5e915e8601e8f6a9486148ee",
+      "puuid": "f042bb8ac1bb32b74c3fc2ec26c84075",
+      "title": "PCB_MCU4Insole",
+      "filename": "PCB_MCU4Insole.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9cd066887af54f0aac5b5d84976dee43": 1,
+        "9c6dab9dc91e4b929269cb3454d6d713": 1,
+        "398691f1f785460098bbe5ee6590333c": 1,
+        "b650dac514184b809241310cc3e65153": 1,
+        "89f5280378144b629de4998ef974b6b8": 3,
+        "f8151fdc728a41ebbc304e11d39e5437": 3
+      },
+      "BOM": [],
+      "updateTime": 1708442469,
+      "createTime": 1708442456,
+      "histories": [],
+      "created_at": "2024-02-20 23:20:56",
+      "updated_at": "2024-02-20 23:21:09"
+    }
+  ],
+  "sort": [
+    "29853de221d5a6c0b8dad087d1ad30c2",
+    "347e1b91a47ba86bbc29d019e1c793c5"
+  ],
+  "title": "MCU4Insole",
+  "foldername": "MCU4Insole",
+  "schfilename": "MCU4Insole.json",
+  "schfilemtime": 1708442471362
+}
