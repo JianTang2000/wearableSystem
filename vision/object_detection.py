@@ -10,7 +10,7 @@ from ultralytics import YOLO
 from util.tools import compute_mean_min
 
 print("============loading model .....================")
-model = YOLO(r'../materials/best.onnx', task='detect')  # speed UP in Pi
+model = YOLO(r'../materials/best.onnx', task='detect')  # speed UP in Raspberry_Pi
 # model = YOLO(r'../materials/best.pt', task='detect')
 print("============loading model done ================")
 
@@ -86,6 +86,7 @@ def usage_example():
     # target = 60
     # target = 56
     rgb = r"../materials/0-rgb-scene1-.jpg"
+    # rgb = r"../materials/0-rgb-scene2-.jpg"
     npy = rgb.replace("0-rgb", "2-depth").replace(".jpg", ".npy")
     img_cv2 = cv2.imread(rgb)
     depth_image_npy = np.load(npy)
@@ -93,12 +94,11 @@ def usage_example():
     if xywh is not None:
         angle = post_process_angle(xywh[0])
         distance, invalid_p = post_process_distance(depth_image_npy, xywh[0])  # =======> NOTE
-        # print(f"angle (degree left/right) : {angle}")
-        # print(f"distance (meter) : {distance}")
-        # print(f"invalid depth area in the box (0~1) : {invalid_p}")
+        print(f"angle (degree left/right) : {angle}")
+        print(f"distance (meter) : {distance}")
+        print(f"invalid depth area in the box (0~1) : {invalid_p}")
     else:
         print(f' no {detection_classes.get(target)} detected ')
-
     time.sleep(100)
 
 

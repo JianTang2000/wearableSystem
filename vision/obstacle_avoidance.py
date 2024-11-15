@@ -126,7 +126,6 @@ def demo_img():
     root = r"../"
     rgb = "materials/0-rgb-scene1-.jpg"
     # rgb = "materials/0-rgb-scene2-.jpg"
-    # rgb = "materials/0-rgb-scene3-.jpg"
     npy = rgb.replace("0-rgb", "2-depth").replace(".jpg", ".npy")
     color_image = cv2.imread(os.path.join(root, rgb))
     # get ground seg by ground interval method
